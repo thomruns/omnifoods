@@ -8,4 +8,11 @@ resources directory contains all css, image, and Javascript files that are writt
 
 vendors directory contains any framework, font, css, or Javascript files used in the project.
 
-Date of last edit: 10/26/17 *******************
+Date of creation: 10/25/17 *******************
+README initialized: 10/26/17 *****************
+
+UPDATE 10/26/17
+Media queries initiated in /resources/css/queries.css 
+
+
+Date of last edit: 10/26/17 ******************
