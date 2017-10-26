@@ -79,6 +79,120 @@
 
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px) {
+  body {font-size: 16px;}
+
+  section {padding: 30px 0;}
+
+  row,
+  hero-text-box {padding:0, 4%;}
+
+  .col {
+    width: 100%;
+    margin: 0 0 4% 0;
+  }
+
+  .logo {
+    height: 75px;
+    margin-top: 40px;
+    margin-left: 40%;
+  }
+
+  .main-nav {display: none;}
+
+  .hero-text-box h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .hero-text-box .btn {
+    margin-left: 8%;
+  }
+
+  h1 { font-size: 1.8rem;}
+  h2 {font-size: 1.2rem;}
+  h3 {font-size: .7rem;}
+
+  .long-copy {
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .section-features {text-align: center;}
+  .section-features .icon-big {font-size: 2rem;}
+  .section-steps h2 {font-size: 1.1rem;}
+
+  .steps-box {
+    margin-top: 5px;
+    margin-left: 0px;
+  }
+
+  .steps-box:first-child {
+    text-align: center;
+    margin-left: 6%;
+  }
+
+  .works-step {margin-bottom: 20px;}
+
+  .btn-app img {
+    margin-right: 0px;
+    margin-left: 90px;
+  }
+  .works-step div {
+    height: 30px;
+    width: 30px;
+    padding:3px;
+    font-size: .9rem;
+  }
+
+  .app-screen {width: 30%;}
+
+  .section-cities .box img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 25%;
+  }
+
+  .section-cities h3 {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .city-feature { text-align: center;}
+
+  .section-testimonials h2 {font-size: 1.1rem;}
+
+  blockquote {
+    padding: 1%;
+    margin-top: 20px;
+  }
+  blockquote:before {
+    font-size: 3rem;
+    top: -1px;
+    left: -4px;
+  }
+  cite {
+    font-size: .6rem;
+    margin-top: 5px;
+    text-align: right;
+  }
+
+  footer .col {margin: 0 0 4% 0;}
+  .footer-nav {width: 50%;}
+
+
+  footer { font-size: .6rem; }
+  .footer-nav li,
+  .social-links li {
+    margin-right: 5px;
+  }
+
+  .social-links li {
+    font-size: .7rem;
+    margin-right: 5px;
+  }
+  .social-links {float: left;}
 
 }
 
