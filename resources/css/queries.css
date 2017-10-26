@@ -1,12 +1,76 @@
 /* Large tablet to 1200px (widths smaller than 1140px row width) */
 @media only screen and (max-width: 1200px) {
-
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+  .row { padding: 0 2% }
 }
 
 
 /* Small tablet to large tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
+  body { font-size: 0.8rem; }
+  section {padding: 60px 0;}
+  h1 {font-size: 2rem;}
+  h2 {font-size: 1.4rem;}
+  h3 {font-size: .7rem;}
+  .long-copy {
+    width: 70%;
+    margin-left: 15%;
+  }
+  .box p {
+    font-size: .7rem;
+    line-height: 135%;
+  }
+  .icon-big {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+  }
 
+  .steps-box {margin-left: -20px;}
+  
+  .steps-box:first-child {
+    margin-top: 10px;
+    text-align: right;
+    padding-right: 3%;
+  }
+
+  .steps-box:last-child {
+    padding-left: 3%;
+    margin-top: 20px;
+  }
+  .works-step {margin-bottom: 30px;}
+
+  .works-step:last-of-type {margin-bottom: 80px;}
+  .works-step div {
+    border: 1px solid #e67e22;
+    height: 40px;
+    width: 40px;
+    padding: 6px;
+    font-size: 1rem;
+    margin-right:10px;
+  }
+  .works-step:last-of-type {margin-bottom: 40px;}
+  .btn-app img {
+    height: 30px;
+    width: auto;
+    margin-right: 10px;
+  }
+  .app-screen {margin-right: 40px;}
+
+  .city-feature {
+    margin-bottom: 2px;
+    font-size: .7rem;
+  }
+  .icon-small{
+    width: 15px;
+    font-size: .8rem;
+    margin-top: -6px;
+    margin-right: 4px;
+    line-height: 1.2rem;
+  }
+  .plan-price {font-size: 1.8rem;}
 }
 
 /* Small phones to small tablets: from 481px to 767px */
