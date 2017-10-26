@@ -27,21 +27,17 @@
     font-size: 2.5rem;
     margin-bottom: 5px;
   }
-
   .steps-box {margin-left: -20px;}
-  
   .steps-box:first-child {
     margin-top: 10px;
     text-align: right;
     padding-right: 3%;
   }
-
   .steps-box:last-child {
     padding-left: 3%;
     margin-top: 20px;
   }
   .works-step {margin-bottom: 30px;}
-
   .works-step:last-of-type {margin-bottom: 80px;}
   .works-step div {
     border: 1px solid #e67e22;
@@ -71,6 +67,14 @@
     line-height: 1.2rem;
   }
   .plan-price {font-size: 1.8rem;}
+
+  .plan-box {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .contact-form { width: 80%;}
+  footer {padding: 30px;}
+  .footer-nav li {margin-right: 10px;}
 }
 
 /* Small phones to small tablets: from 481px to 767px */
