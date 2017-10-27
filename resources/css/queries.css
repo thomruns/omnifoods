@@ -94,10 +94,42 @@
   .logo {
     height: 75px;
     margin-top: 40px;
-    margin-left: 40%;
   }
 
   .main-nav {display: none;}
+
+  .mobile-nav-icon {
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  .main-nav {
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+
+  .main-nav li {
+    display: block;
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    display: block;
+    border: 0;
+    font-size: 1rem;
+  }
+
+
+
+  .sticky .main-nav { margin-top: 10px; }
+
+  .sticky .mobile-nav-icon i {
+    color: #555;
+  }
+
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited { padding: 10px 0; }
 
   .hero-text-box h1 {
     font-size: 1.5rem;
@@ -120,7 +152,7 @@
 
   .section-features {text-align: center;}
   .section-features .icon-big {font-size: 2rem;}
-  .section-steps h2 {font-size: 1.1rem;}
+  .section-steps h2 {font-size: .9rem;}
 
   .steps-box {
     margin-top: 5px;
