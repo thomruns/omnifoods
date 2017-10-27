@@ -26,5 +26,5 @@ Media queries initiated in /resources/css/queries.css
 
 
 
-Date of last edit: 10/26/17 ******************
+Date of last edit: 10/27/17 ******************
 
