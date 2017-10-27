@@ -20,6 +20,8 @@ selectivizr.js
 
 jQuery version 3.2.1 using Google cdn 
 
+Using animate.css from daneden.github.io/animate.css for animations
+
 UPDATE 10/26/17
 Media queries initiated in /resources/css/queries.css 
 
